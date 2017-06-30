@@ -1,90 +1,106 @@
+/* Here is about whole pages */
 * {
   box-sizing: border-box;
   font-family: sans-serif;
 }
-
 .main {
   width: 75%;
 }
-
 .sidebar {
   float: left;
   width: 25%;
 }
+/* Whole pages end here */
 
-.right {
-  float: right;
-}
-
-.left {
-  float: left;
-}
-
-.next {
-  clear: right;
-}
-
+/* Here is about header */
 .header {
   height: 150px;
 }
-
 .header img {
   margin-top: 4%;
   width: 8%;
 }
-
 .name {
   margin-top: 5%;
   color: silver;
   font-size: 250%;
   padding-right: 25px;
 }
-
 .job {
   color: silver;
   padding-right: 25px;
 }
-
 hr {
   border: 2px solid silver;
 }
+/* Header end here */
 
+/* Here is about sidebar */
 .flexbox {
   margin-top: 160px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
 }
-
 .box {
   width: 30%;
   padding-top:30%;
   margin-left: 45%;
 }
-
 .first-box {
   order: 1;
   background-color: #2eb3e4;
 }
-
 .second-box {
   order: 2;
   background-color: #2d3c49;
 }
-
 .third-box {
   order: 3;
   background-color: #7d97ad;
 }
+/* Sidebar end here */
 
+/* Here is about my pictures */
 .self-intro img {
   position: relative;
   top: 5px;
-  left: 20px;
   width: 70%;
 }
+/*My picture end here */
 
+/* Here is about my works */
 .title {
   font-size: 250%;
   color: silver;
 }
+.flex-hrz {
+  width: 100%;
+  height: 500px;
+  margin-bottom: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.work {
+  width: 30%;
+  height:300px;
+  background-color: blue;
+}
+/* My works end here */
+
+/* Here is about utilities */
+.right {
+  float: right;
+}
+.left {
+  float: left;
+}
+.next {
+  clear: right;
+}
+.silver {
+  color: silver;
+}
+/* unitilies end here */
