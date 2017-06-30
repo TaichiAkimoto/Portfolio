@@ -86,7 +86,10 @@ hr {
 .work {
   width: 30%;
   height:300px;
-  background-color: blue;
+}
+.work img {
+  width: 100%;
+  height: 200px;
 }
 /* My works end here */
 
