@@ -1,0 +1,90 @@
+* {
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.main {
+  width: 75%;
+}
+
+.sidebar {
+  float: left;
+  width: 25%;
+}
+
+.right {
+  float: right;
+}
+
+.left {
+  float: left;
+}
+
+.next {
+  clear: right;
+}
+
+.header {
+  height: 150px;
+}
+
+.header img {
+  margin-top: 4%;
+  width: 8%;
+}
+
+.name {
+  margin-top: 5%;
+  color: silver;
+  font-size: 250%;
+  padding-right: 25px;
+}
+
+.job {
+  color: silver;
+  padding-right: 25px;
+}
+
+hr {
+  border: 2px solid silver;
+}
+
+.flexbox {
+  margin-top: 160px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.box {
+  width: 30%;
+  padding-top:30%;
+  margin-left: 45%;
+}
+
+.first-box {
+  order: 1;
+  background-color: #2eb3e4;
+}
+
+.second-box {
+  order: 2;
+  background-color: #2d3c49;
+}
+
+.third-box {
+  order: 3;
+  background-color: #7d97ad;
+}
+
+.self-intro img {
+  position: relative;
+  top: 5px;
+  left: 20px;
+  width: 70%;
+}
+
+.title {
+  font-size: 250%;
+  color: silver;
+}
